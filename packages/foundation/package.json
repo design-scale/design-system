@@ -1,0 +1,12 @@
+{
+  "name": "@designsystem/foundation",
+  "packageManager": "yarn@3.6.1",
+  "devDependencies": {
+    "style-dictionary": "^3.8.0",
+    "typescript": "^5.1.6"
+  },
+  "scripts": {
+    "build-tokens": "style-dictionary build --config sd.config.js",
+    "build": "yarn build-tokens && tsc"
+  }
+}
